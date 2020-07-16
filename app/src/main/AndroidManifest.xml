@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.consulting">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/docpad"
+        android:label="DocPad "
+        android:roundIcon="@drawable/docpad"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MessageActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddUserDetail" />
+        <activity android:name=".CustomPager" />
+        <activity android:name=".Register" />
+        <activity android:name=".AdminLogin" />
+        <activity android:name=".PatientUserLogin" />
+        <activity android:name=".AddMedicalStore" />
+        <activity android:name=".AddDoctor" />
+        <activity android:name=".MedicalStoreLogin" />
+        <activity android:name=".UserActivity" />
+        <activity android:name=".DoctorLogin" />
+        <activity android:name=".ActivityAdmin" />
+        <activity android:name=".ViewUser" />
+        <activity android:name=".AddAmbulance" />
+        <activity android:name=".ViewDoctor" />
+        <activity android:name=".ViewMedicalStore" />
+        <activity android:name=".ViewAmbulance" />
+        <activity android:name=".UserRights" />
+        <activity android:name=".Searchdoctor" />
+        <activity android:name=".SearchMedicalStore" />
+        <activity android:name=".SearchAmbulance" />
+        <activity android:name=".MedicalStoreRights" />
+        <activity android:name=".DoctorRights" />
+        <activity android:name=".MainForChatActiviy" />
+        <activity android:name=".DoctorTiming"/>
+        <activity android:name=".AddMedicine"/>
+        <activity android:name=".SearchMedicine"/>
+        <activity android:name=".PatientChatActivity"/>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.consulting.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+            <meta-data android:name="AA_MODELS" android:value="com.example.consulting.UserAdapter"/>
+        </provider>
+    </application>
+</manifest>

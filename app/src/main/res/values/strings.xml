@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Consulting</string>
+    <string name="title_activity_doctor">DoctorActivity</string>
+    <string name="title_activity_admin">AdminActivity</string>
+    <string name="map_key" translatable="false">AIzaSyAvyTcNieOcUuWZFJi_pPRASh4SrVTS6FY</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="name">Name: </string>
+    <string name="gender">Gender: </string>
+    <string name="phone">Phone: </string>
+    <string name="date">Date: </string>
+    <string name="type">Specialised In : </string>
+    <string name="diseases">Diseases : </string>
+    <string name="location">Location : </string>
+    <string name="call">Call</string>
+    <string name="chat">Chat</string>
+    <string name="availablemedicine">Medicine</string>
+
+
+    <array name="gender">
+        <item>Female</item>
+        <item>Male</item>
+    </array>
+    <array name="doctertype">
+        <item>Dermatologists</item>
+        <item>Infection</item>
+        <item>Ophthalmologists</item>
+        <item>Obstetrician</item>
+        <item>Gynecologists</item>
+        <item>Cardiologists</item>
+        <item>Endocrinologists</item>
+        <item>Gastroenterologists</item>
+    </array>
+    <string name="string1">Page1</string>
+    <string name="string2">Page2</string>
+    <string name="string3">Page3</string>
+    <string name="add_aambulance">ADD AAMBULANCE</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.consulting.AddMedicalStore"
+    android:orientation="vertical"
+    android:background="@drawable/backscreen">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#fff"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_alignTop="@+id/user_profile_photo"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="11dp">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableTint="#FF4081"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:entries="@array/gender"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.498" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableTint="#FF4081"
+            android:hint="enter name"
+            android:id="@+id/c_name"
+            android:layout_weight="1"/>
+
+          <EditText
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:drawableTint="#FF4081"
+            android:hint="enter date(d/m/yyyy)"
+            android:id="@+id/c_date"
+            android:layout_weight="1" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableTint="#FF4081"
+            android:hint="enter password"
+            android:id="@+id/c_pass"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableTint="#FF4081"
+            android:hint="enter email"
+            android:id="@+id/c_email"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableTint="#FF4081"
+            android:hint="enter number"
+            android:id="@+id/c_phone"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableTint="#FF4081"
+            android:hint="example.your degree diploma etc."
+            android:id="@+id/c_desc"
+            android:layout_weight="1"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="22dp"
+        android:text="Insert"
+        android:onClick="insert"
+        android:textColor="#fff"
+        android:background="#d67601"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

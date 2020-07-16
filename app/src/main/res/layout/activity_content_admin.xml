@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_admin"
+    tools:context="com.example.consulting.ActivityAdmin"
+    android:orientation="vertical"
+    android:background="@drawable/login_backround">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/admin" />
+
+    <Button
+        android:layout_width="160dp"
+        android:id="@+id/btnaddambulance"
+        android:layout_height="wrap_content"
+        android:text="@string/add_aambulance"
+        android:layout_gravity="center"
+        android:drawableStart="@drawable/a"
+        android:background="#94fcd9"
+        android:layout_margin="10dp"
+        android:layout_marginStart="20dp"
+        />
+
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="VIEW User"
+        android:drawableStart="@drawable/view"
+        android:background="#94fcd9"
+        android:layout_margin="10dp"
+        android:id="@+id/btnviewuser"
+        android:layout_marginStart="20dp"/>
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="VIEW Doctor"
+        android:drawableStart="@drawable/view"
+        android:background="#94fcd9"
+        android:id="@+id/btnviewdoctor"
+        android:layout_margin="10dp"
+        android:layout_marginStart="20dp"/>
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="VIEW Medicalstor"
+        android:drawableStart="@drawable/view"
+        android:id="@+id/btnviewmedicalstore"
+        android:background="#94fcd9"
+        android:layout_margin="10dp"
+        android:layout_marginStart="20dp"/>
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="VIEW Ambulance"
+        android:drawableStart="@drawable/view"
+        android:id="@+id/btnviewambulance"
+        android:background="#94fcd9"
+        android:layout_margin="10dp"
+        android:layout_marginStart="20dp"/>
+
+
+</LinearLayout>

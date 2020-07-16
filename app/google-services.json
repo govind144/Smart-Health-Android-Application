@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "409518049627",
+    "firebase_url": "https://consulting-c52b7.firebaseio.com",
+    "project_id": "consulting-c52b7",
+    "storage_bucket": "consulting-c52b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409518049627:android:49c81698aa3330e6bf327e",
+        "android_client_info": {
+          "package_name": "com.example.consulting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409518049627-r18uked6vt4p2lmd7pbq34uonkv5cfle.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.consulting",
+            "certificate_hash": "d804995cacc6ae97f24df8e7f8a103442ffe88a3"
+          }
+        },
+        {
+          "client_id": "409518049627-o6g5tr5s6ibjoh3f9a3v1pdg7rhp3jjl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCc93OKovXD20ehHH13atgTzI7ip8YUkE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409518049627-o6g5tr5s6ibjoh3f9a3v1pdg7rhp3jjl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
